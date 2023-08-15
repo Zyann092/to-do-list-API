@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <script defer src="assets/script/main.js"></script>
+    <div class="container">
+        <h1 class="to-do">To-Do List</h1>
+        <div class="input-container">
+            <div class="task-input">
+                <label for="taskInput">Task:</label>
+                <input type="text" id="taskInput">
+            </div>
+            <div class="date-input">
+                <label for="dateInput">Date:</label>
+                <input type="date" id="dateInput">
+            </div>
+            <div class="time-input">
+                <label for="timeInput">Time:</label>
+                <input type="time" id="timeInput">
+            </div>
+        </div>
+
+        <table class="task-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Task</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody id="taskBody">
+
+            </tbody>
+        </table>
+        <div class="btn-container">
+            <input type="button" id="addTaskBtn" value="Add Task" class="add-task-btn">
+        </div>
+    </div>
+</body>
+</html>
